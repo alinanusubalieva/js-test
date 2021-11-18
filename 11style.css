@@ -1,0 +1,30 @@
+.responsive{
+    height: 200px;
+    width: 100%;
+    border:1px  red  solid ;
+    background-color: red;
+}
+@media all and (max-width: 2560px){
+    .responsive{
+        background-color: green;
+    }
+}
+@media all and (max-width: 1440px){
+    .responsive{
+        background-color: yellow;
+    }
+}
+@media all and (max-width: 1024px){
+    .responsive{
+        background-color: orange;
+    }
+}   
+@media all and (max-width: 758px){
+    .responsive{
+        background-color: blue;
+    }
+}
+@media all and (max-width: 320px){
+    .responsive{
+        background: none;
+    }
